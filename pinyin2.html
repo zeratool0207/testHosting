@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Teddy 중국어 - 병음퀴즈</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link href="./plugins/sweetalert/css/sweetalert.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- 추가건 -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159897918-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159897918-1');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean" rel="stylesheet">
+    <style>
+        h1, h2, h3, h4, a, p, span, li,.mb-1{
+                  font-family: 'Jua', sans-serif;
+            }
+            .mb-1 {
+                width: 45%; 
+                height: 45px;
+                font-size : 20px;
+            }
+            .button-icon{
+                padding-top: 10px;
+            }
+
+        th, td {border: 2px solid #444444;}
+        .pinyin {color: black;  font-size: 20px; }
+        td {    text-align: center;}
+
+    </style>
+    <!-- 추가건 끝 -->
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-email-outline"></i>
+                                <span class="badge badge-pill gradient-1">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                
+                            </div>
+                        </li>
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-pill gradient-2">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+
+                                <div class="dropdown-content-body">
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user"  data-toggle="dropdown">
+                                <span>English</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">Korean</a></li>
+                                        <li><a href="javascript:void()">Chinese</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/user/1.png" height="40" width="40" alt="">
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+       <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                  <li class="nav-label">========= 왕기초반 ===========</li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-hat-wizard"></i><span class="nav-text">유지은 同学</span>
+                        </a>
+                    </li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="far fa-money-bill-alt"></i><span class="nav-text">김파랑 同学</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-label">==========  초급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-landmark"></i><span class="nav-text">이시하 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-feather-alt"></i><span class="nav-text">윤수진 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-feather"></i><span class="nav-text">이숙진 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-dragon"></i><span class="nav-text">준모 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-dove"></i></i></i><span class="nav-text">이유정 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-deskpro"></i></i><span class="nav-text">서지인 同学</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-label">==========  중급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-fort-awesome"></i></i><span class="nav-text">신명주 同学</span>
+                        </a>
+                    </li>
+                    <li class="nav-label">==========  고급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-github"></i><span class="nav-text">이영선 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-github-alt"></i></i><span class="nav-text">장혜영 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-firefox"></i><span class="nav-text">김현민 同学</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="card gradient-6">
+                            <div class="card-body" id="pinyin2">
+                                <h3 class="card-title text-white">중국어 왕기초를 위한</h3>
+                                <div class="d-inline-block">
+                                    <h2 class="text-white">병음표 병음듣기</h2>
+                                    <p class="text-white mb-0">Teddy CHINESE</p>
+                                </div>
+                                <span class="float-right display-5 opacity-5"><i class="fa fa-heart"></i></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- /# column -->
+
+                    <!-- /# column -->
+
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">1.성조선택</h4>
+                                <div class="basic-form">
+                                    <form>
+                                        <div class="form-row align-items-center">
+                                            <div class="col-auto my-1" style="width: 300px;">
+                                                <label class="mr-sm-2">성조를 선택하신후 아래 병음 버튼 클릭!</label>
+                                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected="selected">Choose...</option>
+                                                    <option value="1">1성</option>
+                                                    <option value="2">2성</option>
+                                                    <option value="3">3성</option>
+                                                    <option value="4">4성</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table header-border">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>a</th>
+                                                <th>o</th>
+                                                <th>e</th>
+                                                <th>i</th>
+                                                <th>ai</th>
+                                                <th>ei</th>
+                                                <th>ao</th>
+                                                <th>ou</th>
+                                                <th>an</th>
+                                                <th>en</th>
+                                                <th>ang</th>
+                                                <th>eng</th>
+                                                <th>ong</th>
+                                                <th>i</th>
+                                                <th>ia</th>
+                                                <th>iao</th>
+                                                <th>ie</th>
+                                                <th>iou</th>
+                                                <th>ian</th>
+                                                <th>in</th>
+                                                <th>iang</th>
+                                                <th>ing</th>
+                                                <th>iong</th>
+                                                <th>u</th>
+                                                <th>ua</th>
+                                                <th>uo</th>
+                                                <th>uai</th>
+                                                <th>uei</th>
+                                                <th>uan</th>
+                                                <th>uen</th>
+                                                <th>uang</th>
+                                                <th>ü</th>
+                                                <th>üe</th>
+                                                <th>üan</th>
+                                                <th>ün</th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- b -->
+                                            <tr class="table-active">
+                                                <td><a style="color: black;font-size: 25px;">b</a></td>
+                                                <td><a href="#none" class="pinyin">ba</a></td>
+                                                <td><a href="#none" class="pinyin">bo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">bai</a></td>
+                                                <td><a href="#none" class="pinyin">bei</a></td>
+                                                <td><a href="#none" class="pinyin">bao</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ban</a></td>
+                                                <td><a href="#none" class="pinyin">ben</a></td>
+                                                <td><a href="#none" class="pinyin">bang</a></td>
+                                                <td><a href="#none" class="pinyin">beng</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">bi</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">biao</a></td>
+                                                <td><a href="#none" class="pinyin">bie</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">bian</a></td>
+                                                <td><a href="#none" class="pinyin">bin</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">bing</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">bu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- p -->
+                                            <tr class="table-primary">
+                                                <td><a style="color: black;font-size: 25px;">p</a></td>
+                                                <td><a href="#none" class="pinyin">pa</a></td>
+                                                <td><a href="#none" class="pinyin">po</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">pai</a></td>
+                                                <td><a href="#none" class="pinyin">pei</a></td>
+                                                <td><a href="#none" class="pinyin">pao</a></td>
+                                                <td><a href="#none" class="pinyin">pou</a></td>
+                                                <td><a href="#none" class="pinyin">pan</a></td>
+                                                <td><a href="#none" class="pinyin">pen</a></td>
+                                                <td><a href="#none" class="pinyin">pang</a></td>
+                                                <td><a href="#none" class="pinyin">peng</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">pi</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">piao</a></td>
+                                                <td><a href="#none" class="pinyin">pie</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">pian</a></td>
+                                                <td><a href="#none" class="pinyin">pin</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ping</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">pu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- m -->
+                                            <tr class="table-success">
+                                                <td><a style="color: black;font-size: 25px;">m</a></td>
+                                                <td><a href="#none" class="pinyin">ma</a></td>
+                                                <td><a href="#none" class="pinyin">mo</a></td>
+                                                <td><a href="#none" class="pinyin">me</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">mai</a></td>
+                                                <td><a href="#none" class="pinyin">mei</a></td>
+                                                <td><a href="#none" class="pinyin">mao</a></td>
+                                                <td><a href="#none" class="pinyin">mou</a></td>
+                                                <td><a href="#none" class="pinyin">man</a></td>
+                                                <td><a href="#none" class="pinyin">men</a></td>
+                                                <td><a href="#none" class="pinyin">mang</a></td>
+                                                <td><a href="#none" class="pinyin">meng</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">mi</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">miao</a></td>
+                                                <td><a href="#none" class="pinyin">mie</a></td>
+                                                <td><a href="#none" class="pinyin">miu</a></td>
+                                                <td><a href="#none" class="pinyin">mian</a></td>
+                                                <td><a href="#none" class="pinyin">min</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ming</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">mu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- f -->
+                                            <tr class="table-info">
+                                                <td><a style="color: black;font-size: 25px;">f</a></td>
+                                                <td><a href="#none" class="pinyin">fa</a></td>
+                                                <td><a href="#none" class="pinyin">fo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">fei</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">fou</a></td>
+                                                <td><a href="#none" class="pinyin">fan</a></td>
+                                                <td><a href="#none" class="pinyin">fen</a></td>
+                                                <td><a href="#none" class="pinyin">fang</a></td>
+                                                <td><a href="#none" class="pinyin">feng</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">fu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- d -->
+                                            <tr class="table-warning">
+                                                <td><a style="color: black;font-size: 25px;">d</a></td>
+                                                <td><a href="#none" class="pinyin">da</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">de</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">dai</a></td>
+                                                <td><a href="#none" class="pinyin">dei</a></td>
+                                                <td><a href="#none" class="pinyin">dao</a></td>
+                                                <td><a href="#none" class="pinyin">dou</a></td>
+                                                <td><a href="#none" class="pinyin">dan</a></td>
+                                                <td><a href="#none" class="pinyin">den</a></td>
+                                                <td><a href="#none" class="pinyin">dang</a></td>
+                                                <td><a href="#none" class="pinyin">deng</a></td>
+                                                <td><a href="#none" class="pinyin">dong</a></td>
+                                                <td><a href="#none" class="pinyin">di</a></td>
+                                                <td><a href="#none" class="pinyin">dia</a></td>
+                                                <td><a href="#none" class="pinyin">diao</a></td>
+                                                <td><a href="#none" class="pinyin">die</a></td>
+                                                <td><a href="#none" class="pinyin">diu</a></td>
+                                                <td><a href="#none" class="pinyin">dian</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ding</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">du</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">duo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">dui</a></td>
+                                                <td><a href="#none" class="pinyin">duan</a></td>
+                                                <td><a href="#none" class="pinyin">dun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- t -->
+                                            <tr class="table-danger">
+                                                <td><a style="color: black;font-size: 25px;">t</a></td>
+                                                <td><a href="#none" class="pinyin">ta</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">te</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tai</a></td>
+                                                <td><a href="#none" class="pinyin">tei</a></td>
+                                                <td><a href="#none" class="pinyin">tao</a></td>
+                                                <td><a href="#none" class="pinyin">tou</a></td>
+                                                <td><a href="#none" class="pinyin">tan</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tang</a></td>
+                                                <td><a href="#none" class="pinyin">teng</a></td>
+                                                <td><a href="#none" class="pinyin">tong</a></td>
+                                                <td><a href="#none" class="pinyin">ti</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tiao</a></td>
+                                                <td><a href="#none" class="pinyin">tie</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tian</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ting</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tuo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">tui</a></td>
+                                                <td><a href="#none" class="pinyin">tuan</a></td>
+                                                <td><a href="#none" class="pinyin">tun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- n -->
+                                            <tr class="table-primary">
+                                                <td><a style="color: black;font-size: 25px;">n</a></td>
+                                                <td><a href="#none" class="pinyin">na</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ne</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">nai</a></td>
+                                                <td><a href="#none" class="pinyin">nei</a></td>
+                                                <td><a href="#none" class="pinyin">nao</a></td>
+                                                <td><a href="#none" class="pinyin">nou</a></td>
+                                                <td><a href="#none" class="pinyin">nan</a></td>
+                                                <td><a href="#none" class="pinyin">nen</a></td>
+                                                <td><a href="#none" class="pinyin">nang</a></td>
+                                                <td><a href="#none" class="pinyin">neng</a></td>
+                                                <td><a href="#none" class="pinyin">nong</a></td>
+                                                <td><a href="#none" class="pinyin">ni</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">niao</a></td>
+                                                <td><a href="#none" class="pinyin">nie</a></td>
+                                                <td><a href="#none" class="pinyin">niu</a></td>
+                                                <td><a href="#none" class="pinyin">nian</a></td>
+                                                <td><a href="#none" class="pinyin">nin</a></td>
+                                                <td><a href="#none" class="pinyin">niang</a></td>
+                                                <td><a href="#none" class="pinyin">ning</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">nu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">nuo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">nuan</a></td>
+                                                <td><a href="#none" class="pinyin">nun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">nü</a></td>
+                                                <td><a href="#none" class="pinyin">nüe</a></td>
+                                                <td><a href="#none" class="pinyin">nüan</a></td>
+                                                <td><a href="#none" class="pinyin">nün</a></td>
+                                            </tr>
+                                            <!-- l -->
+                                            <tr class="table-success">
+                                                <td><a style="color: black;font-size: 25px;">l</a></td>
+                                                <td><a href="#none" class="pinyin">la</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">le</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">lai</a></td>
+                                                <td><a href="#none" class="pinyin">lei</a></td>
+                                                <td><a href="#none" class="pinyin">lao</a></td>
+                                                <td><a href="#none" class="pinyin">lou</a></td>
+                                                <td><a href="#none" class="pinyin">lan</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">lang</a></td>
+                                                <td><a href="#none" class="pinyin">leng</a></td>
+                                                <td><a href="#none" class="pinyin">long</a></td>
+                                                <td><a href="#none" class="pinyin">li</a></td>
+                                                <td><a href="#none" class="pinyin">lia</a></td>
+                                                <td><a href="#none" class="pinyin">liao</a></td>
+                                                <td><a href="#none" class="pinyin">lie</a></td>
+                                                <td><a href="#none" class="pinyin">liu</a></td>
+                                                <td><a href="#none" class="pinyin">lian</a></td>
+                                                <td><a href="#none" class="pinyin">lin</a></td>
+                                                <td><a href="#none" class="pinyin">liang</a></td>
+                                                <td><a href="#none" class="pinyin">ling</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">lu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">luo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">luan</a></td>
+                                                <td><a href="#none" class="pinyin">lun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">lü</a></td>
+                                                <td><a href="#none" class="pinyin">lüe</a></td>
+                                                <td><a href="#none" class="pinyin">lüan</a></td>
+                                                <td><a href="#none" class="pinyin">lün</a></td>
+                                            </tr>
+                                            <!-- g -->
+                                            <tr class="table-info">
+                                                <td><a style="color: black;font-size: 25px;">g</a></td>
+                                                <td><a href="#none" class="pinyin">ga</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ge</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">gai</a></td>
+                                                <td><a href="#none" class="pinyin">gei</a></td>
+                                                <td><a href="#none" class="pinyin">gao</a></td>
+                                                <td><a href="#none" class="pinyin">gou</a></td>
+                                                <td><a href="#none" class="pinyin">gan</a></td>
+                                                <td><a href="#none" class="pinyin">gen</a></td>
+                                                <td><a href="#none" class="pinyin">gang</a></td>
+                                                <td><a href="#none" class="pinyin">geng</a></td>
+                                                <td><a href="#none" class="pinyin">gong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">gu</td>
+                                                <td><a href="#none" class="pinyin">gua</a></td>
+                                                <td><a href="#none" class="pinyin">guo</a></td>
+                                                <td><a href="#none" class="pinyin">guai</a></td>
+                                                <td><a href="#none" class="pinyin">gui</a></td>
+                                                <td><a href="#none" class="pinyin">guan</a></td>
+                                                <td><a href="#none" class="pinyin">gun</a></td>
+                                                <td><a href="#none" class="pinyin">guang</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- k -->
+                                            <tr class="table-warning">
+                                                <td><a style="color: black;font-size: 25px;">k</a></td>
+                                                <td><a href="#none" class="pinyin">ka</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ke</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">kai</a></td>
+                                                <td><a href="#none" class="pinyin">kei</a></td>
+                                                <td><a href="#none" class="pinyin">kao</a></td>
+                                                <td><a href="#none" class="pinyin">kou</a></td>
+                                                <td><a href="#none" class="pinyin">kan</a></td>
+                                                <td><a href="#none" class="pinyin">ken</a></td>
+                                                <td><a href="#none" class="pinyin">kang</a></td>
+                                                <td><a href="#none" class="pinyin">keng</a></td>
+                                                <td><a href="#none" class="pinyin">kong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ku</td>
+                                                <td><a href="#none" class="pinyin">kua</a></td>
+                                                <td><a href="#none" class="pinyin">kuo</a></td>
+                                                <td><a href="#none" class="pinyin">kuai</a></td>
+                                                <td><a href="#none" class="pinyin">kui</a></td>
+                                                <td><a href="#none" class="pinyin">kuan</a></td>
+                                                <td><a href="#none" class="pinyin">kun</a></td>
+                                                <td><a href="#none" class="pinyin">kuang</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- h -->
+                                            <tr class="table-danger">
+                                                <td><a style="color: black;font-size: 25px;">h</a></td>
+                                                <td><a href="#none" class="pinyin">ha</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">he</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">hai</a></td>
+                                                <td><a href="#none" class="pinyin">hei</a></td>
+                                                <td><a href="#none" class="pinyin">hao</a></td>
+                                                <td><a href="#none" class="pinyin">hou</a></td>
+                                                <td><a href="#none" class="pinyin">han</a></td>
+                                                <td><a href="#none" class="pinyin">hen</a></td>
+                                                <td><a href="#none" class="pinyin">hang</a></td>
+                                                <td><a href="#none" class="pinyin">heng</a></td>
+                                                <td><a href="#none" class="pinyin">hong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">hu</td>
+                                                <td><a href="#none" class="pinyin">hua</a></td>
+                                                <td><a href="#none" class="pinyin">huo</a></td>
+                                                <td><a href="#none" class="pinyin">huai</a></td>
+                                                <td><a href="#none" class="pinyin">hui</a></td>
+                                                <td><a href="#none" class="pinyin">huan</a></td>
+                                                <td><a href="#none" class="pinyin">hun</a></td>
+                                                <td><a href="#none" class="pinyin">huang</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- j-->
+                                            <tr class="table-primary">
+                                                <td><a style="color: black;font-size: 25px;">j</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ji</a></td>
+                                                <td><a href="#none" class="pinyin">jia</a></td>
+                                                <td><a href="#none" class="pinyin">jiao</a></td>
+                                                <td><a href="#none" class="pinyin">jie</a></td>
+                                                <td><a href="#none" class="pinyin">jiu</a></td>
+                                                <td><a href="#none" class="pinyin">jian</a></td>
+                                                <td><a href="#none" class="pinyin">jin</a></td>
+                                                <td><a href="#none" class="pinyin">jiang</a></td>
+                                                <td><a href="#none" class="pinyin">jing</a></td>
+                                                <td><a href="#none" class="pinyin">jiong</a></td>
+                                                <td><a href="#none" class="pinyin"></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ju</a></td>
+                                                <td><a href="#none" class="pinyin">jue</a></td>
+                                                <td><a href="#none" class="pinyin">juan</a></td>
+                                                <td><a href="#none" class="pinyin">jun</a></td>
+                                            </tr>    
+                                            <!-- q-->
+                                            <tr class="table-success">
+                                                <td><a style="color: black;font-size: 25px;">q</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">qi</a></td>
+                                                <td><a href="#none" class="pinyin">qia</a></td>
+                                                <td><a href="#none" class="pinyin">qiao</a></td>
+                                                <td><a href="#none" class="pinyin">qie</a></td>
+                                                <td><a href="#none" class="pinyin">qiu</a></td>
+                                                <td><a href="#none" class="pinyin">qian</a></td>
+                                                <td><a href="#none" class="pinyin">qin</a></td>
+                                                <td><a href="#none" class="pinyin">qiang</a></td>
+                                                <td><a href="#none" class="pinyin">qing</a></td>
+                                                <td><a href="#none" class="pinyin">qiong</a></td>
+                                                <td><a href="#none" class="pinyin"></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">qu</a></td>
+                                                <td><a href="#none" class="pinyin">que</a></td>
+                                                <td><a href="#none" class="pinyin">quan</a></td>
+                                                <td><a href="#none" class="pinyin">qun</a></td>
+                                            </tr>  
+                                            <!-- x -->
+                                            <tr class="table-info">
+                                                <td><a style="color: black;font-size: 25px;">x</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">xi</a></td>
+                                                <td><a href="#none" class="pinyin">xia</a></td>
+                                                <td><a href="#none" class="pinyin">xiao</a></td>
+                                                <td><a href="#none" class="pinyin">xie</a></td>
+                                                <td><a href="#none" class="pinyin">xiu</a></td>
+                                                <td><a href="#none" class="pinyin">xian</a></td>
+                                                <td><a href="#none" class="pinyin">xin</a></td>
+                                                <td><a href="#none" class="pinyin">xiang</a></td>
+                                                <td><a href="#none" class="pinyin">xing</a></td>
+                                                <td><a href="#none" class="pinyin">xiong</a></td>
+                                                <td><a href="#none" class="pinyin"></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">xu</a></td>
+                                                <td><a href="#none" class="pinyin">xue</a></td>
+                                                <td><a href="#none" class="pinyin">xuan</a></td>
+                                                <td><a href="#none" class="pinyin">xun</a></td>
+                                            </tr> 
+                                            <!-- zh -->
+                                            <tr class="table-warning">
+                                                <td><a style="color: black;font-size: 25px;">zh</a></td>
+                                                <td><a href="#none" class="pinyin">zha</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">zhe</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">zhai</a></td>
+                                                <td><a href="#none" class="pinyin">zhei</a></td>
+                                                <td><a href="#none" class="pinyin">zhao</a></td>
+                                                <td><a href="#none" class="pinyin">zhou</a></td>
+                                                <td><a href="#none" class="pinyin">zhan</a></td>
+                                                <td><a href="#none" class="pinyin">zhen</a></td>
+                                                <td><a href="#none" class="pinyin">zhang</a></td>
+                                                <td><a href="#none" class="pinyin">zheng</a></td>
+                                                <td><a href="#none" class="pinyin">zhong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">zhu</td>
+                                                <td><a href="#none" class="pinyin">zhua</a></td>
+                                                <td><a href="#none" class="pinyin">zhuo</a></td>
+                                                <td><a href="#none" class="pinyin">zhuai</a></td>
+                                                <td><a href="#none" class="pinyin">zhui</a></td>
+                                                <td><a href="#none" class="pinyin">zhuan</a></td>
+                                                <td><a href="#none" class="pinyin">zhun</a></td>
+                                                <td><a href="#none" class="pinyin">zhuang</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- ch -->
+                                            <tr class="table-danger">
+                                                <td><a style="color: black;font-size: 25px;">ch</a></td>
+                                                <td><a href="#none" class="pinyin">cha</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">che</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">chai</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">chao</a></td>
+                                                <td><a href="#none" class="pinyin">chou</a></td>
+                                                <td><a href="#none" class="pinyin">chan</a></td>
+                                                <td><a href="#none" class="pinyin">chen</a></td>
+                                                <td><a href="#none" class="pinyin">chang</a></td>
+                                                <td><a href="#none" class="pinyin">cheng</a></td>
+                                                <td><a href="#none" class="pinyin">chong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">chu</td>
+                                                <td><a href="#none" class="pinyin">chua</a></td>
+                                                <td><a href="#none" class="pinyin">chuo</a></td>
+                                                <td><a href="#none" class="pinyin">chuai</a></td>
+                                                <td><a href="#none" class="pinyin">chui</a></td>
+                                                <td><a href="#none" class="pinyin">chuan</a></td>
+                                                <td><a href="#none" class="pinyin">chun</a></td>
+                                                <td><a href="#none" class="pinyin">chuang</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- sh -->
+                                            <tr class="table-primary">
+                                                <td><a style="color: black;font-size: 25px;">sh</a></td>
+                                                <td><a href="#none" class="pinyin">sha</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">she</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">shai</a></td>
+                                                <td><a href="#none" class="pinyin">shei</a></td>
+                                                <td><a href="#none" class="pinyin">shao</a></td>
+                                                <td><a href="#none" class="pinyin">shou</a></td>
+                                                <td><a href="#none" class="pinyin">shan</a></td>
+                                                <td><a href="#none" class="pinyin">shen</a></td>
+                                                <td><a href="#none" class="pinyin">shang</a></td>
+                                                <td><a href="#none" class="pinyin">sheng</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">shu</td>
+                                                <td><a href="#none" class="pinyin">shua</a></td>
+                                                <td><a href="#none" class="pinyin">shuo</a></td>
+                                                <td><a href="#none" class="pinyin">shuai</a></td>
+                                                <td><a href="#none" class="pinyin">shui</a></td>
+                                                <td><a href="#none" class="pinyin">shuan</a></td>
+                                                <td><a href="#none" class="pinyin">shun</a></td>
+                                                <td><a href="#none" class="pinyin">shuang</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- r -->
+                                            <tr class="table-success">
+                                                <td><a style="color: black;font-size: 25px;">r</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">re</a></td>
+                                                <td><a href="#none" class="pinyin">ri</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">rao</a></td>
+                                                <td><a href="#none" class="pinyin">rou</a></td>
+                                                <td><a href="#none" class="pinyin">ran</a></td>
+                                                <td><a href="#none" class="pinyin">ren</a></td>
+                                                <td><a href="#none" class="pinyin">rang</a></td>
+                                                <td><a href="#none" class="pinyin">reng</a></td>
+                                                <td><a href="#none" class="pinyin">rong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ru</td>
+                                                <td><a href="#none" class="pinyin">rua</a></td>
+                                                <td><a href="#none" class="pinyin">ruo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">rui</a></td>
+                                                <td><a href="#none" class="pinyin">ruan</a></td>
+                                                <td><a href="#none" class="pinyin">run</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- z -->
+                                            <tr class="table-info">
+                                                <td><a style="color: black;font-size: 25px;">z</a></td>
+                                                <td><a href="#none" class="pinyin">za</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ze</a></td>
+                                                <td><a href="#none" class="pinyin">zi</a></td>
+                                                <td><a href="#none" class="pinyin">zai</a></td>
+                                                <td><a href="#none" class="pinyin">zei</a></td>
+                                                <td><a href="#none" class="pinyin">zao</a></td>
+                                                <td><a href="#none" class="pinyin">zou</a></td>
+                                                <td><a href="#none" class="pinyin">zan</a></td>
+                                                <td><a href="#none" class="pinyin">zen</a></td>
+                                                <td><a href="#none" class="pinyin">zang</a></td>
+                                                <td><a href="#none" class="pinyin">zeng</a></td>
+                                                <td><a href="#none" class="pinyin">zong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">zu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">zuo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">zui</a></td>
+                                                <td><a href="#none" class="pinyin">zuan</a></td>
+                                                <td><a href="#none" class="pinyin">zun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- c -->
+                                            <tr class="table-warning">    
+                                                <td><a style="color: black;font-size: 25px;">c</a></td>
+                                                <td><a href="#none" class="pinyin">ca</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">ce</a></td>
+                                                <td><a href="#none" class="pinyin">ci</a></td>
+                                                <td><a href="#none" class="pinyin">cai</a></td>
+                                                <td><a href="#none" class="pinyin">cei</a></td>
+                                                <td><a href="#none" class="pinyin">cao</a></td>
+                                                <td><a href="#none" class="pinyin">cou</a></td>
+                                                <td><a href="#none" class="pinyin">can</a></td>
+                                                <td><a href="#none" class="pinyin">cen</a></td>
+                                                <td><a href="#none" class="pinyin">cang</a></td>
+                                                <td><a href="#none" class="pinyin">ceng</a></td>
+                                                <td><a href="#none" class="pinyin">cong</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">cu</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">cuo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">cui</a></td>
+                                                <td><a href="#none" class="pinyin">cuan</a></td>
+                                                <td><a href="#none" class="pinyin">cun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+                                            <!-- s -->
+                                            <tr class="table-danger">
+                                                <td><a style="color: black;font-size: 25px;">s</a></td>
+                                                <td><a href="#none" class="pinyin">sa</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">se</a></td>
+                                                <td><a href="#none" class="pinyin">si</a></td>
+                                                <td><a href="#none" class="pinyin">sai</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">sao</a></td>
+                                                <td><a href="#none" class="pinyin">sou</a></td>
+                                                <td><a href="#none" class="pinyin">san</a></td>
+                                                <td><a href="#none" class="pinyin">sen</a></td>
+                                                <td><a href="#none" class="pinyin">sang</a></td>
+                                                <td><a href="#none" class="pinyin">seng</a></td>
+                                                <td><a href="#none" class="pinyin">song</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">su</td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">suo</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin">sui</a></td>
+                                                <td><a href="#none" class="pinyin">suan</a></td>
+                                                <td><a href="#none" class="pinyin">sun</a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                                <td><a href="#none" class="pinyin"></a></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    
+    <script type="text/javascript">
+    
+    /*$(".mb-1").click(function(){
+                    var b = $("#inlineFormCustomSelect").val();
+                    var a = ($(this).text()).trim();
+
+                    var c = "./sound/"+ a + b +".mp3";
+
+                    var alertSound = new Audio(c); // 오디오 객체 생성
+                    alertSound.play();
+                })*/
+
+        $(".pinyin").click(function(){
+                    var a = $("#inlineFormCustomSelect").val();
+                    if(a=="Choose..."){
+                        alert("성조를 선택해주세요");
+                        return false
+                    }
+
+                    var b = $(this).text();
+
+                
+                    var c = "./sound/"+ b + a +".mp3";
+
+                    var alertSound = new Audio(c); // 오디오 객체 생성
+                    alertSound.play();
+
+        })
+
+
+    </script>
+
+</body>
+
+</html>

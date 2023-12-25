@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quixlab - Bootstrap Admin Dashboard Template by Themefisher.com</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean" rel="stylesheet">
+    <style>
+            h1, h2, h3, h4, h5, a, p, span, li{
+                  font-family: 'Jua', sans-serif;
+            }
+    </style>
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <div class="input-group icons">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i class="mdi mdi-magnify"></i></span>
+                        </div>
+                        <input type="search" class="form-control" placeholder="Search Dashboard" aria-label="Search Dashboard">
+                        <div class="drop-down   d-md-none">
+							<form action="#">
+								<input type="text" class="form-control" placeholder="Search">
+							</form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown">
+                            <a href="javascript:void(0)">
+                                <i class="mdi mdi-email-outline"></i>
+                                <span class="badge gradient-1 badge-pill badge-primary">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">3 New Messages</span>  
+                                    
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li class="notification-unread">
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/1.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Saiful Islam</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="notification-unread">
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/2.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Adam Smith</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Can you do me a favour?</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Barak Obama</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/4.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Hilari Clinton</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Hello</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <a href="javascript:void(0)">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-pill gradient-2 badge-primary">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">2 New Notifications</span>  
+                                    
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Events near you</h6>
+                                                    <span class="notification-text">Within next 5 days</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Event Started</h6>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Event Ended Successfully</h6>
+                                                    <span class="notification-text">One hour ago</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Events to Join</h6>
+                                                    <span class="notification-text">After two days</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user"  data-toggle="dropdown">
+                                <span>English</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">English</a></li>
+                                        <li><a href="javascript:void()">Dutch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/user/1.png" height="40" width="40" alt="">
+                            </div>
+                            <div class="drop-down dropdown-profile   dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="app-profile.html"><i class="icon-user"></i> <span>Profile</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="email-inbox.html"><i class="icon-envelope-open"></i> <span>Inbox</span> <div class="badge gradient-3 badge-pill badge-primary">3</div></a>
+                                        </li>
+                                        
+                                        <hr class="my-2">
+                                        <li>
+                                            <a href="page-lock.html"><i class="icon-lock"></i> <span>Lock Screen</span></a>
+                                        </li>
+                                        <li><a href="page-login.html"><i class="icon-key"></i> <span>Logout</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Dashboard</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index.html">Home 1</a></li>
+                            <!-- <li><a href="./index-2.html">Home 2</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Layouts</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./layout-blank.html">Blank</a></li>
+                            <li><a href="./layout-one-column.html">One Column</a></li>
+                            <li><a href="./layout-two-column.html">Two column</a></li>
+                            <li><a href="./layout-compact-nav.html">Compact Nav</a></li>
+                            <li><a href="./layout-vertical.html">Vertical</a></li>
+                            <li><a href="./layout-horizontal.html">Horizontal</a></li>
+                            <li><a href="./layout-boxed.html">Boxed</a></li>
+                            <li><a href="./layout-wide.html">Wide</a></li>
+                            
+                            
+                            <li><a href="./layout-fixed-header.html">Fixed Header</a></li>
+                            <li><a href="layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-label">Apps</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-envelope menu-icon"></i> <span class="nav-text">Email</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./email-inbox.html">Inbox</a></li>
+                            <li><a href="./email-read.html">Read</a></li>
+                            <li><a href="./email-compose.html">Compose</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-screen-tablet menu-icon"></i><span class="nav-text">Apps</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./app-profile.html">Profile</a></li>
+                            <li><a href="./app-calender.html">Calender</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-graph menu-icon"></i> <span class="nav-text">Charts</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./chart-flot.html">Flot</a></li>
+                            <li><a href="./chart-morris.html">Morris</a></li>
+                            <li><a href="./chart-chartjs.html">Chartjs</a></li>
+                            <li><a href="./chart-chartist.html">Chartist</a></li>
+                            <li><a href="./chart-sparkline.html">Sparkline</a></li>
+                            <li><a href="./chart-peity.html">Peity</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-label">UI Components</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-grid menu-icon"></i><span class="nav-text">UI Components</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./ui-accordion.html">Accordion</a></li>
+                            <li><a href="./ui-alert.html">Alert</a></li>
+                            <li><a href="./ui-badge.html">Badge</a></li>
+                            <li><a href="./ui-button.html">Button</a></li>
+                            <li><a href="./ui-button-group.html">Button Group</a></li>
+                            <li><a href="./ui-cards.html">Cards</a></li>
+                            <li><a href="./ui-carousel.html">Carousel</a></li>
+                            <li><a href="./ui-dropdown.html">Dropdown</a></li>
+                            <li><a href="./ui-list-group.html">List Group</a></li>
+                            <li><a href="./ui-media-object.html">Media Object</a></li>
+                            <li><a href="./ui-modal.html">Modal</a></li>
+                            <li><a href="./ui-pagination.html">Pagination</a></li>
+                            <li><a href="./ui-popover.html">Popover</a></li>
+                            <li><a href="./ui-progressbar.html">Progressbar</a></li>
+                            <li><a href="./ui-tab.html">Tab</a></li>
+                            <li><a href="./ui-typography.html">Typography</a></li>
+                        <!-- </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-layers menu-icon"></i><span class="nav-text">Components</span>
+                        </a>
+                        <ul aria-expanded="false"> -->
+                            <li><a href="./uc-nestedable.html">Nestedable</a></li>
+                            <li><a href="./uc-noui-slider.html">Noui Slider</a></li>
+                            <li><a href="./uc-sweetalert.html">Sweet Alert</a></li>
+                            <li><a href="./uc-toastr.html">Toastr</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="widgets.html" aria-expanded="false">
+                            <i class="icon-badge menu-icon"></i><span class="nav-text">Widget</span>
+                        </a>
+                    </li>
+                    <li class="nav-label">Forms</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text">Forms</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./form-basic.html">Basic Form</a></li>
+                            <li><a href="./form-validation.html">Form Validation</a></li>
+                            <li><a href="./form-step.html">Step Form</a></li>
+                            <li><a href="./form-editor.html">Editor</a></li>
+                            <li><a href="./form-picker.html">Picker</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-label">Table</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-menu menu-icon"></i><span class="nav-text">Table</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./table-basic.html" aria-expanded="false">Basic Table</a></li>
+                            <li><a href="./table-datatable.html" aria-expanded="false">Data Table</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-label">Pages</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Pages</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./page-login.html">Login</a></li>
+                            <li><a href="./page-register.html">Register</a></li>
+                            <li><a href="./page-lock.html">Lock Screen</a></li>
+                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./page-error-404.html">Error 404</a></li>
+                                    <li><a href="./page-error-403.html">Error 403</a></li>
+                                    <li><a href="./page-error-400.html">Error 400</a></li>
+                                    <li><a href="./page-error-500.html">Error 500</a></li>
+                                    <li><a href="./page-error-503.html">Error 503</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container-fluid">
+                
+                <!-- End Row -->
+                <div class="row">
+                    <div class="col-12">
+                        <!-- <h4 class="d-inline">Cards With Footer and Links</h4>
+                        <p class="text-muted">This is 3 column contents</p> -->
+                        <div class="row">
+                            <div class="col-md-6 col-lg-2">
+                                <div class="card">
+                                    <img class="img-fluid" src="images/big/hanzi1.jpg" alt="">
+ 
+                                    <div class="card-footer">
+                                       <a id = "0" href="#" data-toggle="modal" class="btn btn-primary float-right modal_go" data-target=".bd-example-modal-lg">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-md-6 col-lg-2">
+                                <div class="card">
+                                    <img class="img-fluid" src="images/big/hanzi2.jpg" alt="">
+ 
+                                    <div class="card-footer">
+                                        <a id = "1" href="#" data-toggle="modal" class="btn btn-primary float-right modal_go" data-target=".bd-example-modal-lg">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-md-6 col-lg-2">
+                                <div class="card">
+                                    <img class="img-fluid" src="images/big/hanzi3.jpg" alt="">
+
+                                    <div class="card-footer">
+                                        <a id = "2" href="#" data-toggle="modal" class="btn btn-primary float-right modal_go" data-target=".bd-example-modal-lg">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-md-6 col-lg-2">
+                                <div class="card">
+                                    <img class="img-fluid" src="images/big/hanzi4.jpg" alt="">
+
+                                    <div class="card-footer">
+                                        <a id = "3" href="#" data-toggle="modal" class="btn btn-primary float-right modal_go" data-target=".bd-example-modal-lg">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-2">
+                                <div class="card">
+                                    <img class="img-fluid" src="images/big/hanzi5.jpg" alt="">
+
+                                    <div class="card-footer">
+                                        <a id = "4" href="#" data-toggle="modal" class="btn btn-primary float-right modal_go" data-target=".bd-example-modal-lg">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-2">
+                                <div class="card">
+                                    <img class="img-fluid" src="images/big/hanzi6.jpg" alt="">
+
+                                    <div class="card-footer">
+                                        <a id = "5" href="#" data-toggle="modal" class="btn btn-primary float-right modal_go" data-target=".bd-example-modal-lg">Go</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Col -->
+                        </div>
+                    </div>
+
+                    <!-- 모달  -->
+                     <div class="col-lg-12">
+                        <!-- <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Modal grid</h4>
+                                <div class="bootstrap-modal">
+                                    
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalGrid">Basic modal</button>
+                                  
+                                    <div class="modal fade" id="modalGrid">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Modal title</h5>
+
+                                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                         <div class="row">
+                                                            <div class="col-md-4">.col-md-4</div>
+                                                            <div class="col-md-4 ml-auto">.col-md-4 .ml-auto</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-3 ml-auto">.col-md-3 .ml-auto</div>
+                                                            <div class="col-md-2 ml-auto">.col-md-2 .ml-auto</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-9">Level 1: .col-sm-9
+                                                                <div class="row">
+                                                                    <div class="col-8 col-sm-6">Level 2: .col-8 .col-sm-6</div>
+                                                                    <div class="col-4 col-sm-6">Level 2: .col-4 .col-sm-6</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="card col-md-3 ml-auto">
+                                                            	<img class="img-fluid" src="images/big/pic6.jpg" alt="">
+                                                            	
+                                                            </div>
+                                                            <div class="col-md-2 ml-auto">.col-md-2 .ml-auto</div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="card-body">
+                                <!-- <h4 class="card-title">Modal Size</h4> -->
+                                <div class="bootstrap-modal">
+                                    <!-- Large modal -->
+                                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
+                                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Teddy Chinese</h5>
+                                                    
+                                                        <input type="checkbox" id="chk1" style="margin-left: 10px;margin-top: 5px;">
+                                                        <label class="toggle" for="chk1"></label>
+
+                                                        <input type="checkbox" id="chk2" style="margin-left: 20px;margin-top: 5px;">
+                                                        <label class="toggle" for="chk2"></label>
+                                                    
+
+                                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+                                                    </button>
+                                                </div>
+
+                                                <!-- <div class="modal-body">Modal body text goes here.</div> -->
+
+                                                <div class="row" style="padding-left: 15px; padding-right: 15px;">
+                                                    <div class="card col-md-5" style="padding-left: 15px; border: 1px solid rgb(97 92 255 / 50%);">
+                                                    	<img id = "modal_pic" class="img-fluid" src="images/big/pic2.jpg" alt="" style="">
+                                                    	
+                                                    </div>
+                                                    <div class="card col-md-2">
+                                                    	 <span class="toggle-icon" style="text-align: center;line-height: 400px;font-size: 30px;">
+                                                    	 	<i class="fas fa-angle-double-right"></i></span>
+                                                    </div>
+                                                    <div class="card col-md-5" style="padding-right: 15px; border: 1px solid rgb(97 92 255 / 50%);">
+                                                    	<img id = "modal_hanzi"class="img-fluid" src="images/big/hanzi2.jpg" alt="" style="margin-top: 70px; ">
+                                                    </div>
+                                                </div>
+
+											<div class="modal-body" >
+                                                <div class="row" id = "hanzi_row">
+	                                                <div class="card col-md-4">
+	                                                    	 <h2 id = 'hanzi' style="text-align: center;">Popover in a modal</h5>
+	                                                </div>
+	                                                <div class="card col-md-4">
+	                                                    	 <h2 id = 'pinyin' style="text-align: center;">Popover in a modal</h5>
+	                                                </div>
+	                                                <div class="card col-md-4">
+	                                                    	 <h2 id = 'yisi' style="text-align: center;">Popover in a modal</h5>
+	                                                </div>
+	                                            </div> 
+	                                            <div  id = "hanzi_juzi">   
+	                                                <h2 id = 'juzi_hanzi'>Popover in a modal</h5>
+	                                                <hr>
+	                                                <h3 id = 'juzi_pinyin'>Popover in a modal</h5>
+	                                                <hr>
+	                                                <h2 id = 'juzi_yisi'>Popover in a modal</h5>
+                                           		</div>
+                                            </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Small modal -->
+                                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+                                    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="modal-dialog modal-sm">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Modal title</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">Modal body text goes here.</div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <!-- End Row -->
+                
+                <!-- End Row -->
+               
+                
+                
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+<!-- 추가건 -->
+    <script src="js/youtube_hanzi.js"></script>
+
+    <script type="text/javascript">
+
+	window.onload = function() {
+ 		modal_init();		
+	}
+
+
+	
+
+	$(".modal_go").click(function(){ 
+        modal_init();
+
+        var num = $(this).attr('id');
+        modal_data_set(num);
+    });
+
+    $("#chk1").click(function(){ 
+        show_hide();
+    });
+
+
+    $("#chk2").click(function(){ 
+        show_hide_juzi();
+    });
+
+
+
+    function show_hide(){
+    	if($("#chk1").is(":checked") == true){
+    		$("#hanzi_row").show();
+    	} else {
+    		$("#hanzi_row").hide();
+    	}
+    }
+
+    function show_hide_juzi(){
+    	if($("#chk2").is(":checked") == true){
+    		$("#hanzi_juzi").show();
+    	} else {
+    		$("#hanzi_juzi").hide();
+    	}
+    }
+
+    function modal_init(){
+    	$("#chk1").prop("checked", false);
+		$("#chk2").prop("checked", false);
+    	$("#hanzi_row").hide();
+    	$("#hanzi_juzi").hide();
+
+    }
+
+    function modal_data_set(param){
+    	var param1 = Number(param)+1;
+
+    	var a = "hanzi" + param1;
+    	var b = "pic" + param1;
+
+    	var aa = "images/big/" + b + ".jpg" ;
+    	var bb = "images/big/" + a + ".jpg" ;
+
+    	$("#modal_pic").attr("src",aa);
+    	$("#modal_hanzi").attr("src",bb);
+
+    	$("#hanzi").text(you_data[param][0]);
+    	$("#pinyin").text(you_data[param][1]);
+    	$("#yisi").text(you_data[param][2]);
+    	$("#juzi_hanzi").text(you_data[param][3]);
+    	$("#juzi_pinyin").text(you_data[param][4]);
+    	$("#juzi_yisi").text(you_data[param][5]);
+    }
+
+    </script>	
+
+</body>
+
+</html>

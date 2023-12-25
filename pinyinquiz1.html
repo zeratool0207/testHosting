@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Teddy 중국어 - 병음퀴즈</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link href="./plugins/sweetalert/css/sweetalert.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- 추가건 -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159897918-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159897918-1');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean" rel="stylesheet">
+    <style>
+            h1, h2, h3, h4, a, p, span, li,.mb-1,.mb-2{
+                  font-family: 'Jua', sans-serif;
+            }
+            
+            .button-icon{
+                padding-top: 10px;
+            }
+            .mb-1 {
+                width: 100%; 
+                height: 45px;
+                font-size : 20px;
+            }
+            .mb-2 {
+                width: 30%; 
+                height: 45px;
+                font-size : 25px;
+                background-color:#ffffff;
+                border-color:#232323;
+                line-height:normal;
+                margin-bottom:20px !important;
+            }
+
+    </style>
+    <!-- 추가건 끝 -->
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-email-outline"></i>
+                                <span class="badge badge-pill gradient-1">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                
+                            </div>
+                        </li>
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-pill gradient-2">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+
+                                <div class="dropdown-content-body">
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user"  data-toggle="dropdown">
+                                <span>English</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">Korean</a></li>
+                                        <li><a href="javascript:void()">Chinese</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/user/1.png" height="40" width="40" alt="">
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+       <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                   <li class="nav-label">========= 왕기초반 ===========</li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-hat-wizard"></i><span class="nav-text">유지은 同学</span>
+                        </a>
+                    </li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="far fa-money-bill-alt"></i><span class="nav-text">김파랑 同学</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-label">==========  초급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-landmark"></i><span class="nav-text">이시하 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-feather-alt"></i><span class="nav-text">윤수진 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-feather"></i><span class="nav-text">이숙진 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-dragon"></i><span class="nav-text">준모 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-dove"></i></i></i><span class="nav-text">이유정 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-deskpro"></i></i><span class="nav-text">서지인 同学</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-label">==========  중급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-fort-awesome"></i></i><span class="nav-text">신명주 同学</span>
+                        </a>
+                    </li>
+                    <li class="nav-label">==========  고급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-github"></i><span class="nav-text">이영선 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-github-alt"></i></i><span class="nav-text">장혜영 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-firefox"></i><span class="nav-text">김현민 同学</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <!-- row -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                    	<div class="card gradient-7">
+                            <div class="card-body" id = "pinyinquiz1">
+                                <h3 class="card-title text-white">중국어 왕기초를 위한</h3>
+                                <div class="d-inline-block">
+                                    <h2 class="text-white">중국어 병음 퀴즈</h2>
+                                    <p class="text-white mb-0">Teddy CHINESE</p>
+                                </div>
+                                <span class="float-right display-5 opacity-5"><i class="fa fa-heart"></i></span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body" style="text-align: center;vertical-align: middle;">
+                                    <button id="movieon" type="button" class="btn mb-1 btn-rounded btn-warning" style="width: 70%; height: 230px;background-color: #26adef;border-color: #26adef;"><i class="fas fa-volume-up" style="color:#ffffff;font-size:100px;"></i></button>
+                            </div>
+                            <div class="card-body" style="text-align: center;vertical-align: middle;">
+                                    <div class="button-icon" id="daan">
+                                        <button type="button" class="btn mb-2 btn-warning" id = "sweet-wrong0" kaoshi="dui" daannum="0">fa</button>
+                                        <button type="button" class="btn mb-2 btn-success" id = "sweet-wrong1" kaoshi="cuo" daannum="1">feng</button>
+                                        <button type="button" class="btn mb-2 btn-success" id = "sweet-wrong2" kaoshi="cuo" daannum="2">fan</button>
+                                        <button type="button" class="btn mb-2 btn-warning" id = "sweet-wrong3" kaoshi="cuo" daannum="3">fang</button>
+                                        <button type="button" class="btn mb-2 btn-success" id = "sweet-wrong4" kaoshi="cuo" daannum="4">fei</button>
+                                        <button type="button" class="btn mb-2 btn-warning" id = "sweet-wrong5" kaoshi="cuo" daannum="5">fen</button>
+                                        
+                                    </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+                   
+                    
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    <script src="js/pinyinindex.js"></script>
+    <!-- 얼럿창의 종류와 내용은 아래 sweetalert.init1.js에서 결정한다 -->
+    <script src="./plugins/sweetalert/js/sweetalert.min.js"></script>
+    <script src="./plugins/sweetalert/js/sweetalert.init1.js"></script>
+
+    <script type="text/javascript">
+
+        /*$(".mb-1").click(function(){
+                        var b = $("#inlineFormCustomSelect").val();
+                        var a = ($(this).text()).trim();
+
+                        var c = "./sound/"+ a + b +".mp3";
+
+                        var alertSound = new Audio(c); // 오디오 객체 생성
+                        alertSound.play();
+                    })*/
+            var c = "";
+            var wentimp3 = [];
+
+            $(document).ready(function () {
+                       wenti();
+                    });
+
+            $("#movieon").click(function(){
+                        var alertSound = new Audio(c); // 오디오 객체 생성
+                        alertSound.play();
+            })
+
+
+            // 랜덤하게 추출
+            function getRandom(min, max) {
+                return Math.floor((Math.random() * (max - min + 1)) + min);
+            }
+             
+            // 랜덤하게 추출 (array Ver)
+            function getRandomArray(min, max, count) {
+             
+                // 종료
+                if (max - min + 1 < count) return;
+             
+                // 배열 생성
+                var rst = [];
+                
+                while (1) {
+                    var index = getRandom(min, max);
+             
+                    // 중복 여부를 체크
+                    if (rst.indexOf(index) > -1) {
+                        continue;
+                    }
+             
+                    rst.push(index);
+             
+                    // 원하는 배열 갯수가 되면 종료
+                    if (rst.length == count) {
+                        break;
+                    }
+                }
+             
+                // 정렬
+                return rst.sort(function (a, b) {
+                    return a - b;
+                });
+            }
+            function wenti(){
+                //성조 랜덤값 추출
+                c = "";
+            	wentimp3 = [];
+
+                        var a = getRandom(1,4);
+
+                        //병음 랜덤값 설정
+                        var b = pinyinindex.length - 1 ;
+                        b = getRandom(1,b);
+                        
+                        c = "./sound/" + pinyinindex[b][0] + a +".mp3";
+                        //해당 병음의 문자열 첫자리를 추출하여 전체 배열내에 동일한 첫발음의 병음들을 추출한다.
+                        var d = pinyinindex[b][0].substring(0,1);
+                        for (var i = 0; i < pinyinindex.length; i++) {
+                            if((pinyinindex[i][0].substring(0,1) == d) && (pinyinindex[i][0] != pinyinindex[b][0])){
+                                wentimp3.push(pinyinindex[i][a]);
+                            }
+                        }
+
+                        var e = wentimp3.length;
+                        var f = getRandomArray(0,e-1,6);
+                        for (var i = 0; i < 6; i++) {
+                            var tt = '[daannum=' + i + ']';
+                            var mm = "sweet-wrong"+ i;
+
+
+
+                            $(tt).text(wentimp3[f[i]]);
+                            $(tt).attr("id",mm);
+                        }
+                       
+                        /*for (var i = 0; i < 6; i++) {
+                             $("#daan").append(
+                                '<button type="button" class="btn mb-2 btn-success" id = "sweet-wrong'+i+'">'+ wentimp3[f[i]] + '</button>'
+                             );
+                        }*/
+
+                        //정답을 세팅해줌
+                        var g = "#" + "sweet-wrong" + getRandom(0,5);
+                        $(g).text(pinyinindex[b][a]);                        
+                        $(g).attr("id","sweet-success");
+
+                        if(document.querySelector("#sweet-wrong0") != null){
+                            document.querySelector("#sweet-wrong0").onclick=function(){sweetAlert("Oops...","다시 한번 더 들어보세요~~","error")}
+                        }
+                        if(document.querySelector("#sweet-wrong1") != null){
+                            document.querySelector("#sweet-wrong1").onclick=function(){sweetAlert("Oops...","다시 한번 더 들어보세요~~","error")}
+                        }
+                        if(document.querySelector("#sweet-wrong2") != null){
+                            document.querySelector("#sweet-wrong2").onclick=function(){sweetAlert("Oops...","다시 한번 더 들어보세요~~","error")}
+                        }
+                        if(document.querySelector("#sweet-wrong3") != null){
+                            document.querySelector("#sweet-wrong3").onclick=function(){sweetAlert("Oops...","다시 한번 더 들어보세요~~","error")}
+                        }
+                        if(document.querySelector("#sweet-wrong4") != null){
+                            document.querySelector("#sweet-wrong4").onclick=function(){sweetAlert("Oops...","다시 한번 더 들어보세요~~","error")}
+                        }
+                        if(document.querySelector("#sweet-wrong5") != null){
+                             document.querySelector("#sweet-wrong5").onclick=function(){sweetAlert("Oops...","다시 한번 더 들어보세요~~","error")}
+                        }
+                        if(document.querySelector("#sweet-success") != null){
+                            document.querySelector("#sweet-success").onclick=function(){swal("Hey, Good job !!","굳굳!! 다음 문제로 넘어갑니다.","success")
+                            var alertSound = new Audio("./sound/duile.mp3"); // 오디오 객체 생성
+                        alertSound.play();
+                            wenti();
+                        }
+                        }
+ 
+                       
+                        /*document.querySelector(".sweet-message").onclick=function(){swal("Hey, Here's a message !!")},
+                        document.querySelector(".sweet-text").onclick=function(){swal("Hey, Here's a message !!","It's pretty, isn't it?")},*/
+                        
+
+
+
+
+            }
+
+
+    </script>
+</body>
+
+</html>

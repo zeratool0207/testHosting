@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Teddy 중국어 - 성조 병음 듣기</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- 추가건 -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159897918-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159897918-1');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean" rel="stylesheet">
+    <style>
+            h1, h2, h3, h4, a, p, span, li,.mb-1{
+                  font-family: 'Jua', sans-serif;
+            }
+            .mb-1 {
+                width: 45%; 
+                height: 45px;
+                font-size : 20px;
+            }
+            .button-icon{
+                padding-top: 10px;
+            }
+    </style>
+    <!-- 추가건 끝 -->
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-email-outline"></i>
+                                <span class="badge badge-pill gradient-1">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                
+                            </div>
+                        </li>
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-pill gradient-2">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+
+                                <div class="dropdown-content-body">
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user"  data-toggle="dropdown">
+                                <span>English</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">Korean</a></li>
+                                        <li><a href="javascript:void()">Chinese</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img id = "answer"src="images/user/1.png" height="40" width="40" alt="">
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+       <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                  <li class="nav-label">========= 왕기초반 ===========</li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-hat-wizard"></i><span class="nav-text">유지은 同学</span>
+                        </a>
+                    </li>
+                    <li class="mega-menu mega-menu-sm">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="far fa-money-bill-alt"></i><span class="nav-text">김파랑 同学</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-label">==========  초급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-landmark"></i><span class="nav-text">이시하 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-feather-alt"></i><span class="nav-text">윤수진 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-feather"></i><span class="nav-text">이숙진 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-dragon"></i><span class="nav-text">준모 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fas fa-dove"></i></i></i><span class="nav-text">이유정 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-deskpro"></i></i><span class="nav-text">서지인 同学</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-label">==========  중급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-fort-awesome"></i></i><span class="nav-text">신명주 同学</span>
+                        </a>
+                    </li>
+                    <li class="nav-label">==========  고급반  ===========</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-github"></i><span class="nav-text">이영선 同学</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fab fa-firefox"></i><span class="nav-text">김현민 同学</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <textarea style="display:none" id="myInput" value=""></textarea>
+           
+            <!-- row -->
+            <div class="container-fluid">
+                <div class="row">
+            <div class="col-lg-6">
+                <div class="card gradient-1">
+                    <div class="card-body" id = "pinyinmp3">
+                        <h3 class="card-title text-white">이슬님을 위한 </h3>
+                        <div class="d-inline-block">
+                            <h2 class="text-white">TSC 연습</h2>
+                            <p class="text-white mb-0">Teddy CHINESE</p>
+                        </div>
+                        <span class="float-right display-5 opacity-5"><i class="fa fa-shopping-cart"></i></span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body" style="padding: 15px;">
+                        <h4 class="card-title"></h4>
+                        <!-- Nav tabs -->
+                        <div class="default-tab">
+                            <ul class="nav nav-tabs mb-3" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tsc1">PART1</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tsc2">PART2</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tsc3">PART3</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tsc4">PART4</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tsc5">PART5</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tsc6">PART6</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tsc7">PART7</a>
+                                </li>
+                            </ul>
+
+
+
+
+
+                            <div class="tab-content" style="width: 100%;">
+                            	<!-- PART1 -->
+                                <div class="tab-pane fade show active" id="tsc1" role="tabpanel">
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                            	<h>PART1 준비중입니다.</h>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PART2 -->
+                                <div class="tab-pane fade" id="tsc2">
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                                    
+<h>PART2 준비중입니다.</h>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PART3 -->
+                                <div class="tab-pane fade" id="tsc3" >
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                            	<h>PART3 준비중입니다.</h>       
+                                            	</div>  
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- PART4 -->
+                                <div class="tab-pane fade" id="tsc4">
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                                <div class="form-row align-items-center">
+                                                    <button type="button" class="btn mb-1 btn-primary" style="width: 30%;background: white;color: black;border-color: white;">예제</button>
+                                                    <select class="custom-select mr-sm-2" id="part4lizi" 
+                                                    style="width: 60%;height: 45px;margin-left: 3%;">
+                                                        <option selected="selected">선택</option>
+                                                        <option value="0">예제1 </option>
+                                                        <option value="1">예제2 </option>
+                                                        <option value="2">예제3 </option>
+                                                        <option value="3">예제4 </option>
+                                                        <option value="5">예제5 녹음본O </option>
+                                                        <option value="6">예제6 녹음본O</option>
+                                                    </select>
+
+                                                    <br/>
+                                                <audio id="audioon" src="" controls="controls" style="margin: auto; width: 85%; margin-top: 30px;">
+                                                    <embed srd="sound.wav">
+                                                </audio>
+
+                                                </div>
+
+                                                <h3 id="part4wenzhang"style="text-align: center; margin-top: 30px;"></h3>
+                                                
+                                                <div class="form-row align-items-center" style= "margin-top: 60px; display:none;"> 
+                                                    <button type="button" class="btn mb-1 btn-primary" style="width: 30%;background: white;color: black;border-color: white; ">유형</button>
+                                                    <select class="custom-select mr-sm-2" id="part4juzi" 
+                                                    style="width: 60%;height: 45px;margin-left: 3%;">
+                                                        <option selected="selected">선택</option>
+                                                        <option value="0">건강 </option>
+                                                        <option value="1">시간 </option>
+                                                        <option value="2">돈 </option>
+                                                        <option value="3">자유 </option>
+                                                    </select>
+                                                </div>
+
+                                                <div id="fuxichang" class="form-row align-items-center" style="margin-top: 20px; justify-content: center;">
+                                                    <div id="" class="form-group" style="width: 85%;">
+                                                        <textarea id="part4daan" class="form-control bg-light jieshi" rows="15" placeholder="" style="height: 200px; ">
+                                                        </textarea>    
+                                                        <button id="tsc4time1" type="button" class="btn mb-1 btn-primary" style="width: 30%;margin-left: auto;margin-top: 20px;">준비
+                                                        </button> 
+                                                        <button id="tsc4time2" type="button" class="btn mb-1 btn-primary" style="width: 30%;margin-left: auto;margin-top: 20px;">발언
+                                                        </button> 
+                                                         <button id="tsc4time3"type="button" class="btn mb-1 btn-primary" style="width: 30%;background: white;color: black;border-color: white;margin-top: 20px; float: right;"></button>
+                                                    </div> 
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PART5 -->
+                                <div class="tab-pane fade" id="tsc5" >
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                                    
+<h>PART5 준비중입니다.</h>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PART6 -->
+                                <div class="tab-pane fade" id="tsc6">
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                                    
+<h>PART6 준비중입니다.</h>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PART7 -->
+                                <div class="tab-pane fade" id="tsc7" >
+                                    <div class="card">
+                                        <div class="card-body" style="padding: 18px;">
+                                            <!-- <h4 class="card-title">1.성조선택</h4> -->
+                                            <div class="basic-form">
+                                                    
+<h>PART7 준비중입니다.</h>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                </div>
+                                
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    <!-- hsk단어 -->
+    <script src="js/hskcidian.js"></script>   
+    <script src="js/fuxi.js"></script>  
+    
+    <script src="js/tsclizi.js"></script>  
+    <script type="text/javascript">
+        let today = new Date();   
+
+    let year = today.getFullYear(); // 년도
+    let month = today.getMonth() + 1;  // 월
+    let date = today.getDate();  // 날짜
+    let day = today.getDay();  // 요일
+
+
+    //TSC 4예제 change 이벤트
+    $("#part4lizi").change(function(){
+        debugger;
+        var num = this.value;
+        if(num =='선택'){
+            $("#part4wenzhang").text("");
+        } else if(num =='0' || num =='1'||num =='2'||num =='3') {
+            $("#part4wenzhang").text(tsc4lizi[num]);
+        } else {
+            $("#part4wenzhang").text(tsc4lizi[num]);
+            $("#part4daan").text( tsc4juzi[num]);
+            var hanzimp3 = "./sound/tsc/tsc-4-" + num +".mp3";
+
+                       //$("#audioon").attr('src',c);
+                        //$("#audioon").attr('autoplay','autoplay');
+                        var tscSound = new Audio(hanzimp3); // 오디오 객체 생성
+                        tscSound.play();
+        }
+        
+    })
+
+    $("#tsc4time1").click(function(){
+        timerstart(tsc4time[0]);
+    }) 
+
+    $("#tsc4time2").click(function(){
+        timerstart(tsc4time[1]);
+    })
+
+    //TSC 4유형 change 이벤트
+    $("#part4juzi").change(function(){
+        debugger;
+        var num = this.value;
+        if(num =='선택'){
+            $("#part4daan").text("");
+        } else {
+            if( $("#part4daan").text() == ""){
+                $("#part4daan").text( tsc4juzi[num]);
+            } else {
+                $("#part4daan").text( $("#part4daan").text() + '\n\n'+tsc4juzi[num]);
+            }
+        }
+    })
+
+    //TSC 4유형 타이머 이벤트
+
+    function timerstart(param){
+        var time = param;
+        var x = setInterval(function() {        
+            if(time.toString().length == 2){
+                document.getElementById("tsc4time3").innerHTML = "00:" + time;
+            } else {
+                document.getElementById("tsc4time3").innerHTML = "00:0" + time;
+            }
+            
+            time--;
+            //타임아웃 시
+            if (time < 0) {
+            clearInterval(x); //setInterval() 실행을 끝냄
+            document.getElementById("tsc4time3").innerHTML = "시간초과";
+            }
+    }, 1000);
+
+    } 
+
+    </script>
+</body>
+
+</html>
+
+
+
